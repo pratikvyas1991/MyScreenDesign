@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    app:cardUseCompatPadding="true"
+                                    app:cardBackgroundColor="#60000000">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:src="@drawable/house"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:text="Virat Kohli"
+            android:textColor="@color/tab_text_color"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/user_designation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="Captain"
+            android:textColor="@color/tab_text_selected_color"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/user_position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/tab_text_selected_color"
+            android:gravity="left"
+            android:text="Right Hand Bats Man"
+            android:textSize="15dp"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
